@@ -10,3 +10,16 @@ print(x / y) # Output: 3.3333333333333335
 print(x // y) # Output: 3 
 print(x % y) # Output: 1 
 print(x ** y) # Output: 1000 
+
+# Built-in method example
+numbers = [1, 2, 3, 4, 5]
+length = len(numbers)
+print("Length:", length)
+
+
+# User-defined method example
+def greet(name):
+    print("Hello, " + name)
+
+
+greet("Alice")
