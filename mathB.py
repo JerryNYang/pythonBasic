@@ -11,6 +11,12 @@ print(x // y) # Output: 3
 print(x % y) # Output: 1 
 print(x ** y) # Output: 1000 
 
+age = input("Enter your age: ")
+age = int(age)  # Convert the input to an integer
+
+
+print("You will be " + str(age + 1) + " next year.")
+
 # Built-in method example
 numbers = [1, 2, 3, 4, 5]
 length = len(numbers)
